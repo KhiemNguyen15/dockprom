@@ -1,6 +1,7 @@
 networks:
   monitor-net:
     driver: overlay
+    external: true
 
 volumes:
     prometheus_data: {}
